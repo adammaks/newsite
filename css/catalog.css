@@ -1,0 +1,38 @@
+.body_shop{
+    width: 70%;
+    margin: 50px auto;
+    text-align: left;
+    overflow: hidden;
+}
+.url_catalog{color: #000;text-decoration: none;transition: 0.5s;}.url_catalog:hover{color: #555;cursor: grab;}
+.inline_block_shop_catalog{
+    width: 21%;
+    margin: 20px 20px;
+    display: inline-block;
+}
+.category_man_catalog{
+    width: 100%;
+    height: 400px;
+    background: url('/img/shop-man.jpg') no-repeat top right;
+    background-size:cover;
+    margin: 0px auto;
+}
+
+.text_category_catalog{
+    width: 90%;
+    margin: 10px 0px;
+}
+.name_text_category_catalog{
+    margin: 0px;
+    font-size: 13px;
+    font-family: text;
+    text-align: left;
+    overflow: hidden;
+}.name_text_category_catalog:hover{cursor: grab;}
+.name_text_category_small_catalog{
+    margin: 10px auto;
+    font-size: 18px;
+    font-family: text;
+    text-align: left;
+    font-weight: 900;
+}.name_text_category_small_catalog:hover{cursor: grab;}

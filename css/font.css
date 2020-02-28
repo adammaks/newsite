@@ -1,0 +1,26 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@font-face {
+    font-family: logo;
+    src: url('/shrift/logo.ttf');
+   }
+@font-face {
+    font-family: logo2;
+    src: url('/shrift/logo2.ttf');
+   }
+@font-face {
+    font-family: text;
+    src: url('/shrift/text.ttf');
+   }
+@font-face {
+    font-family: text2;
+    src: url('/shrift/text.ttf');
+   }
+@font-face {
+    font-family: textru;
+    src: url('/shrift/textru.ttf');
+   }@font-face {
+    font-family: welcome;
+    src: url('/shrift/welcome.ttf');
+   }

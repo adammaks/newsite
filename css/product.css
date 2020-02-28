@@ -1,0 +1,109 @@
+.body_product{
+    width: 70%;
+    margin: 50px auto;
+    padding: 0px;
+    text-align: center;
+    overflow: hidden;
+}
+.product_left{
+    width: 35%;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+}
+.img_product{
+    width: 100%;
+    margin: 0px auto;
+}
+.img_galery{
+    width: 100%;
+    margin: 20px auto;
+    overflow: hidden;
+}
+.img_galery_mini{ 
+    width: 15%;
+}
+.product_right{
+    width: 30%;
+    padding: 30px;
+    text-align: left;
+    display: inline-block;
+    vertical-align: top;
+}
+.name_product{
+    font-size: 22px;
+    font-weight: 900;
+    text-align: left;
+    font-family: textru;
+}
+.price_product{
+    width: 20%;
+    margin: 10px auto;
+    font-size: 22px;
+    text-align: center;
+    font-family: text;
+    float: left;
+    border-bottom: 1px solid #000;
+}
+.table_product{
+    width: 100%;
+    margin: 10px 0px;
+    padding: 10px;
+    font-family: text;
+    border: 2px solid #999;
+}
+.grid{
+    margin: 10px auto;
+    font-family: text;
+    font-size: 15px;
+}.a_grid{color: #000;}.a_grid:hover{color: #666;}
+
+.button_cart{
+    width: 60%;
+    margin: 0px auto;
+    padding: 10px;
+    float: right;
+    font-family: text;
+    color: #fff;
+    background: #5e86ff;
+    border: 1px solid #fff;
+}
+.description{
+    width: 70%;
+    margin: 20px auto;
+}
+.description_block{
+    border-top: 1px solid #666;
+    width: 45%;
+    margin: 0px 5px;
+    padding: 20px;
+    text-align: left;
+    display: inline-block;
+    vertical-align: top;
+}
+.name_decription_text{
+    font-size: 18px;
+    font-family: welcome;
+    font-weight: 900;
+    text-decoration: underline;
+    color: #444;
+    text-align: left;
+}
+.text_description{
+    margin: 10px auto;
+    font-size: 14px;
+    font-family: text;
+}
+.composition{
+    border-top: 1px solid #666;
+    width: 45%;
+    padding: 20px;
+    text-align: left;
+    display: inline-block;
+    vertical-align: top;
+}
+.text_comosition{
+    margin: 10px auto;
+    font-size: 14px;
+    font-family: text;
+}
