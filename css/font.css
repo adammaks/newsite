@@ -3,24 +3,24 @@
 
 @font-face {
     font-family: logo;
-    src: url('/shrift/logo.ttf');
+    src: url('/newsite/shrift/logo.ttf');
    }
 @font-face {
     font-family: logo2;
-    src: url('/shrift/logo2.ttf');
+    src: url('/newsite/shrift/logo2.ttf');
    }
 @font-face {
     font-family: text;
-    src: url('/shrift/text.ttf');
+    src: url('/newsite/shrift/text.ttf');
    }
 @font-face {
     font-family: text2;
-    src: url('/shrift/text.ttf');
+    src: url('/newsite/shrift/text.ttf');
    }
 @font-face {
     font-family: textru;
-    src: url('/shrift/textru.ttf');
+    src: url('/newsite/shrift/textru.ttf');
    }@font-face {
     font-family: welcome;
-    src: url('/shrift/welcome.ttf');
+    src: url('/newsite/shrift/welcome.ttf');
    }

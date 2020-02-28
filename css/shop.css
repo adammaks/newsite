@@ -13,10 +13,10 @@
 .category_man{
     width: 100%;
     height: 550px;
-    background: url('/img/shop-man.jpg') no-repeat top center;
+    background: url('/newsite/img/shop-man.jpg') no-repeat top center;
     background-size:cover;
     margin: 0px auto;
-}.category_wooman{background: url('/img/shop-wooman.jpg') no-repeat top center;background-size: cover;}
+}.category_wooman{background: url('/newsite/img/shop-wooman.jpg') no-repeat top center;background-size: cover;}
 
 .text_category{
     width: 50%;
