@@ -48,7 +48,7 @@ body,p{
     width: 100%;
     height: 60vh;
     padding-top: 40vh;
-    background: url('/img/fon_logo1.jpg') repeat-y , #f6f6f6 url('/img/fon_logo2.jpg') repeat-y 100% 0;
+    background: url('img/fon_logo1.jpg') repeat-y , #f6f6f6 url('img/fon_logo2.jpg') repeat-y 100% 0;
     background-size: 250px;
     overflow:hidden;
     border-bottom: 1px solid #ddd;
@@ -79,7 +79,7 @@ body,p{
         width: 100%;
         height: 65vh;
         padding-top: 35vh;
-        background: url('/img/fon_logo1.jpg') repeat-y , #f6f6f6 url('/img/fon_logo2.jpg') repeat-y 100% 0;
+        background: url('img/fon_logo1.jpg') repeat-y , #f6f6f6 url('img/fon_logo2.jpg') repeat-y 100% 0;
         background-size: 150px;
         overflow: hidden;
         border-bottom: 1px solid #ddd;
@@ -110,7 +110,7 @@ body,p{
     text-align: center;
     position: relative;
     overflow: hidden;
-    background: url('/img/fon_welcome2.jpg') no-repeat 97% 50% , #fdfdfd url('/img/fon_welcome.jpg') no-repeat 3% 50%;
+    background: url('img/fon_welcome2.jpg') no-repeat 97% 50% , #fdfdfd url('img/fon_welcome.jpg') no-repeat 3% 50%;
     background-size: 20%;
 }
 .welcome_logo{
@@ -157,7 +157,7 @@ body,p{
 }
 .welcome{
     width: auto;
-    background: #e7e2e6 url('/img/fon_welcome_mobile.jpg') 100% 100% no-repeat;
+    background: #e7e2e6 url('img/fon_welcome_mobile.jpg') 100% 100% no-repeat;
     background-size: 200px;
     box-shadow: 0px 10px 5px #999;
 }
@@ -220,11 +220,11 @@ body,p{
     background: #5e86ff;
     color: #fff;
 }
-.express_block2{background: url(/img/back1.jpg)no-repeat top center;background-size: cover;}
+.express_block2{background: url(img/back1.jpg)no-repeat top center;background-size: cover;}
 .express_block3{background: #ffd75e ;color: #000;}
-.express_block4{background: url(/img/back2.jpg) no-repeat top center;background-size: cover;}
+.express_block4{background: url(img/back2.jpg) no-repeat top center;background-size: cover;}
 .express_block5{background: #aeffc2;color: #000;}
-.express_block6{background: url(/img/back3.jpg) no-repeat top center;background-size: cover;}
+.express_block6{background: url(img/back3.jpg) no-repeat top center;background-size: cover;}
 .express_name{
     font-size: 50px;
     font-family: arial;
@@ -263,7 +263,7 @@ body,p{
     margin: -20px 0px;
     padding-top: 150px;
     text-align: center;
-    background: url('/img/fon_logo1.jpg') repeat-y , #f6f6f6 url('/img/fon_logo2.jpg') repeat-y 100% 0%;
+    background: url('img/fon_logo1.jpg') repeat-y , #f6f6f6 url('img/fon_logo2.jpg') repeat-y 100% 0%;
     background-size: 250px;
     background-attachment: fixed;
     overflow: hidden;
@@ -300,11 +300,11 @@ body,p{
 .li_information{
     margin: 40px auto;
     padding-left: 70px;
-    background: url('/img/icon/1.png') no-repeat;
+    background: url('img/icon/1.png') no-repeat;
     background-size: 45px 45px;
 }
-.li_information2{background: url('/img/icon/2.png') no-repeat;background-size: 45px 45px;}
-.li_information3{background: url('/img/icon/3.png') no-repeat;background-size: 45px 45px;}
+.li_information2{background: url('img/icon/2.png') no-repeat;background-size: 45px 45px;}
+.li_information3{background: url('img/icon/3.png') no-repeat;background-size: 45px 45px;}
 .name_li_information{
     margin: 10px auto;
     font-weight: 600;
@@ -329,7 +329,7 @@ body,p{
     margin: 0px 0px;
     padding-top: 150px;
     text-align: center;
-    background: url('/img/fon_logo1.jpg') repeat-y , #f6f6f6 url('/img/fon_logo2.jpg') repeat-y 100% 0%;
+    background: url('img/fon_logo1.jpg') repeat-y , #f6f6f6 url('img/fon_logo2.jpg') repeat-y 100% 0%;
     background-size: 150px;
     background-attachment: fixed;
     overflow: hidden;
@@ -431,20 +431,20 @@ body,p{
     display: inline-block;
 }
 .telegram{
-    background: url('/img/icon/Btelegram.png')no-repeat;
+    background: url('img/icon/Btelegram.png')no-repeat;
     background-size: 100% 100%;
     transition: 0.9s;
-}.telegram:hover{background: url('/img/icon/telegram.png')no-repeat;background-size: 100% 100%;transition: 0.9s;}
+}.telegram:hover{background: url('img/icon/telegram.png')no-repeat;background-size: 100% 100%;transition: 0.9s;}
 .inst{
-    background: url('/img/icon/BInstagram.png')no-repeat;
+    background: url('img/icon/BInstagram.png')no-repeat;
     background-size: 100% 100%;
     transition: 0.9s;
-}.inst:hover{background: url('/img/icon/Instagram.png')no-repeat;background-size: 100% 100%;transition: 0.9s;}
+}.inst:hover{background: url('img/icon/Instagram.png')no-repeat;background-size: 100% 100%;transition: 0.9s;}
 .whats{
-    background: url('/img/icon/Bwhatsapp.png')no-repeat;
+    background: url('img/icon/Bwhatsapp.png')no-repeat;
     background-size: 100% 100%;
     transition: 0.9s;
-}.whats:hover{background: url('/img/icon/whatsapp.png')no-repeat;background-size: 100% 100%;transition: 0.9s;}
+}.whats:hover{background: url('img/icon/whatsapp.png')no-repeat;background-size: 100% 100%;transition: 0.9s;}
 
 /* Landscape phones and portrait tablets */
 @media screen and (max-width: 767px){
