@@ -170,6 +170,9 @@ body{
 	font-size: 13px;
 }
 @media screen and (max-width: 700px){
+.head{
+	margin-top: -69px;
+}
 .menu{
 	position: absolute;
 	top: 0px;
@@ -180,6 +183,9 @@ body{
 	border: 1px solid #fff;
 	border-radius: 50px;
 	margin: 5px 0px;
+}
+.about{
+	margin-top: 250px;
 }
 .about_logo_img{
 	width: 90%;
