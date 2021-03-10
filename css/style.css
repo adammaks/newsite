@@ -10,6 +10,16 @@ body{
 	background-attachment: fixed;
 	margin: 0px;
 }
+body:before {
+    content: '';
+    background-image: url(https://cafekrasnodar.ru/wp-content/uploads/2021/02/bckg4.jpg) no-repeat;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
 .head{
 	width: 100%;
 	background: #0000009c;
