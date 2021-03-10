@@ -1,472 +1,238 @@
-body,p{
-    margin: 0px auto;
-    padding: 0px;
-    font-family: text;
-    cursor: default;
-}
-.content{background: #f6f6f6;}
-/*navigation*/
-.navigation{
-    margin: 0px auto;
-    padding: 0px;
-    position: fixed;
-    background: #2121219e;
-    width: 100%;
-    text-align: right;
-    cursor: default;
-    z-index: 1;
-}
-.logotip{
-    font-family: logo2;
-    font-size: 20px;
-    color: #fff;
-    display: inline-block;
-    margin: 15px;
-    background-size: 100%;
-    background-position: 0px;
-    position: absolute;
-    left: 10px;
-    text-decoration: none;
-}
-.logotip:hover{ text-shadow: 0px 0px 20px #fff;}
 
-.href_nav{color: #fff;text-decoration: none;} .href_nav:hover{ text-shadow: 1px 1px 10px #fff;}
-.ul_nav{
-    margin: 0px;
-    padding: 0px;
-    display: inline-block;
+body{
+	background: url(https://cafekrasnodar.ru/wp-content/uploads/2021/02/bckg4.jpg) no-repeat;
+	background-size: 100% cover;
+	background-attachment: fixed;
+	margin: 0px;
 }
-.li_nav{
-    margin: 5px;
-    padding: 10px;
-    display: inline-block;
-}
-/*hed_logo*/
 .head{
-    margin: 0px auto;
-    text-align: center;
-    width: 100%;
-    height: 60vh;
-    padding-top: 40vh;
-    background: url('/newsite/img/fon_logo1.jpg') repeat-y , #f6f6f6 url('/newsite/img/fon_logo2.jpg') repeat-y 100% 0;
-    background-size: 250px;
-    overflow:hidden;
-    border-bottom: 1px solid #ddd;
+	width: 100%;
+	background: #0000009c;
+	padding: 10px;
+	color: #fff;
+	margin: 0px;
+	text-align: center;
+	text-transform: uppercase;
+	position: absolute;
+	margin-top: 58px;
 }
 .logo{
-    margin-bottom: 10px;
-    font-size: 80px;
-    font-family: logo2;
-    color: #222;
-    text-shadow: 5px 5px 10px #abd1b4;
-    cursor: default;
+	margin: 10px 0px;
+    font-size: 25px;
+    font-family: arial;
 }
 .pod_logo{
-    border-top: 3px solid #222;
-    padding-top: 20px;
-    width: 250px;
-    font-size: 25px;
-    font-family: logo2;
-    color: #222;
-    text-shadow: 5px 5px 10px #abd1b4;
-    cursor: default;
+	margin: 10px 0px;
+    font-size: 13px;
+    font-family: airal;
 }
-/* Landscape phones and portrait tablets */
-@media screen and (max-width: 767px){
-    .head{
-        margin: 0px auto;
-        text-align: center;
-        width: 100%;
-        height: 65vh;
-        padding-top: 35vh;
-        background: url('/newsite/img/fon_logo1.jpg') repeat-y , #f6f6f6 url('/newsite/img/fon_logo2.jpg') repeat-y 100% 0;
-        background-size: 150px;
-        overflow: hidden;
-        border-bottom: 1px solid #ddd;
-    }
-    .logo{
-        margin-bottom: 10px;
-        font-size: 70px;
-        font-family: logo2;
-        color: #222;
-        text-shadow: 5px 5px 10px #abd1b4;
-        cursor: default;
-    }
-    .pod_logo{
-        border-top: 3px solid #222;
-        padding-top: 20px;
-        width: 250px;
-        font-size: 25px;
-        font-family: logo2;
-        color: #222;
-        text-shadow: 5px 5px 10px #abd1b4;
-        cursor: default;
-    }
+.menu{
+	width: 100%;
+	padding: 20px 0px;
+	background: #0000009c;
+	color: #fff;
+	position: fixed;
+	overflow: hidden;
+	text-align: center;
+	z-index: 1;
 }
-/*body_site*/
-.body_content{
-    height: 400px;
-    padding: 180px 0px;
+.menu a{
+	color: #fff;
+	text-transform: uppercase;
+    font-family: arial;
+    font-size: 13px;
+}
+.menu ul{
+	margin: 0px;
+	padding: 0px;
+}
+.menu li{
+	margin: 0px 5px;
+	display: inline-block;
+}
+.about{
+	width: 80%;
+	margin: 0px auto;
+	color: #fff;
+	overflow: hidden;
     text-align: center;
-    position: relative;
-    overflow: hidden;
-    background: url('/newsite/img/fon_welcome2.jpg') no-repeat 97% 50% , #fdfdfd url('/newsite/img/fon_welcome.jpg') no-repeat 3% 50%;
-    background-size: 20%;
 }
-.welcome_logo{
-    width: 35%;
-    position: absolute;
-    top: 30%;
-    left: 15%;
+.about_logo{
+
+}
+.about_logo_img{
+	width: 80%;
     display: inline-block;
-}
-.p_welcome1{
-    font-size: 40px;
-    font-family: welcome;
-    color: #000;
-    text-align: left;
-}
-.s_looka_me{
-    font-size: 50px;
-    font-family: logo2;
-    color: #5e86ff;
-    text-shadow: 0px 0px 3px #666;
-}
-.welcome_text{
-    width: 30%;
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    display: inline-block;
-    color: #2f2f2f;
-    text-align: left;
-    font-family: text;
-    font-size: 16px;
-}
-.welcome_text_margin{
-    margin: 15px 0px;
-}
-/* Landscape phones and portrait tablets */
-@media screen and (max-width: 767px){
-.body_content{
-    height: auto;
-    padding: 0px;
-    text-align: center;
-    overflow: hidden;
-    background:  #f3f3f3;
-}
-.welcome{
-    width: auto;
-    background: #e7e2e6 url('/newsite/img/fon_welcome_mobile.jpg') 100% 100% no-repeat;
-    background-size: 200px;
-    box-shadow: 0px 10px 5px #999;
-}
-.welcome_mobile{ 
-    background: #ffffff82;
-    padding-bottom: 80px;
-}
-.welcome_logo{
-    width: auto;
-    margin: 10px auto;
-    padding: 0px 20px;
-    position: relative;
-    top: 0px;
-    left: 0px;
-    overflow: hidden;
-}
-.p_welcome1{
     margin: 0px auto;
-    padding: 20px;
-    font-size: 20px;
-    font-family: welcome;
-    color: #000;
-    border-bottom: 1px solid #000;
+}
+.about_logo_text{
+	width: 10%;
+    margin: 25% 0px 0px -50px;
+    padding: 30px;
+    background: #000;
+    border: 4px solid #fff;
+    font-size: 30px;
+    font-family: arial;
     text-align: center;
-}
-.p_welcome2{
-    display: none;
-}
-.s_looka_me{
-    display: none;
-}
-.welcome_text{
-    width: auto;
-    margin: 0px auto 20px auto;
-    padding: 0px 30px;
-    color: #000;
-    text-align: justify;
-    font-family: text;
-    font-size: 15px;
-    position: relative;
-    top: 0px;
-    left: 0px;
-}
-}
-/*express_blocs*/
-.express_block{
-    margin: 0px auto;
-    text-align: center;
-    padding: 0px;
-    min-height: 450px;
-}
-.express_block1{
-    width: 50%;
-    margin: 0px auto;
-    padding-bottom: 20px;
-    min-height: 500px;
     display: inline-block;
     vertical-align: top;
-    overflow: hidden;
-    background: #5e86ff;
-    color: #fff;
 }
-.express_block2{background: url(/newsite/img/back1.jpg)no-repeat top center;background-size: cover;}
-.express_block3{background: #ffd75e ;color: #000;}
-.express_block4{background: url(/newsite/img/back2.jpg) no-repeat top center;background-size: cover;}
-.express_block5{background: #aeffc2;color: #000;}
-.express_block6{background: url(/newsite/img/back3.jpg) no-repeat top center;background-size: cover;}
-.express_name{
-    font-size: 50px;
-    font-family: arial;
-    text-align: center;  
-    margin-top: 100px; 
-}
-.express_name2{
-    width: 90%;
-    margin-top: 10px;
-    font-size: 17px;
-    font-family: text;
+.about_logo_pod_text{
+	width: 93%;
+	margin: 20px auto;
     text-align: justify;
 }
-/* Landscape phones and portrait tablets */
-@media screen and (max-width: 767px){
-.express_block1{
-    width: 95%;
-    margin: 10px auto;
-    padding-bottom: 20px;
-    min-height: 400px;
-    height: auto;
-    overflow: hidden;
-    box-shadow: 0px 0px 10px #999;
-    border-radius: 20px;
+.block_blydo{
+	margin: 0px auto;
+	width: 80%;
+	color: #fff;
+	background: #0000009c;
 }
-.express_name{
-    text-decoration: underline;
-    font-size: 50px;
+.name_catygory{
+	margin: 40px auto;
+	width: 80%;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: arial;
+	font-size: 25px;
+}
+.table_blydo{
+    margin: 50px auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: self-start;
+    flex-direction: row;
+    flex-basis: auto;
+}
+.blydo_img{
+    display: inline-block;
+    margin: 0px 30px;
+    vertical-align: top;
+}
+.blydo_img img{
+	width: 400px;
+	height: 400px;
+	border-radius: 50%;
+}
+.name_blydo{
+	text-align: center;
+	text-transform: uppercase;
+	font-family: arial;
+	font-size: 20px;
+}
+.blydo_description{
+    display: inline-block;
+    width: 40%;
+    vertical-align: top;
+    text-align: justify;
     font-family: arial;
-    text-align: center;  
-    margin-top: 20px;
-}
-}
-/*Information*/
-.information{
-    margin: -20px 0px;
-    padding-top: 150px;
-    text-align: center;
-    background: url('/newsite/img/fon_logo1.jpg') repeat-y , #f6f6f6 url('/newsite/img/fon_logo2.jpg') repeat-y 100% 0%;
-    background-size: 250px;
-    background-attachment: fixed;
-    overflow: hidden;
-}
-.background_media_information{
-    margin-top: -150px;
-    padding-top: 150px;
-    background: #ffffff3d;
-}
-.logo_information{
-    width: 100%;
-    margin: 0px auto;
-    font-size: 50px;
-    font-family: welcome;
-    font-weight: 600;
-    text-shadow: 0px 5px 5px #999;
-}
-.logo_information2{
-    width: 100%;
-    margin-top: 50px;
-    font-size: 30px;
-    font-family: textru;
-}
-.ul_information{
-    margin: 20px auto;
-    padding: 20px;
-    padding-bottom: 120px;
-    list-style-type: none;
-    border: 0px solid #555;
-    width: 50%;
-    text-align: left;
-    overflow: hidden;
-}
-.li_information{
-    margin: 40px auto;
-    padding-left: 70px;
-    background: url('/newsite/img/icon/1.png') no-repeat;
-    background-size: 45px 45px;
-}
-.li_information2{background: url('/newsite/img/icon/2.png') no-repeat;background-size: 45px 45px;}
-.li_information3{background: url('/newsite/img/icon/3.png') no-repeat;background-size: 45px 45px;}
-.name_li_information{
-    margin: 10px auto;
-    font-weight: 600;
-    font-size: 25px;
-    font-family: welcome;;
-    color: #222;
-}
-.name_li_information2{
-    font-size: 18px;
-    font-family: text;
-    color: #555;
-}
-.a_information{
-    text-decoration: none;
-    color: #555;
-    text-shadow: 0px 0px 1px #999;
-}.a_information:hover{text-decoration: underline;color: #000;text-shadow: 0px 0px 2px #666;}
-
-/* Landscape phones and portrait tablets */
-@media screen and (max-width: 767px){
-.information{
-    margin: 0px 0px;
-    padding-top: 150px;
-    text-align: center;
-    background: url('/newsite/img/fon_logo1.jpg') repeat-y , #f6f6f6 url('/newsite/img/fon_logo2.jpg') repeat-y 100% 0%;
-    background-size: 150px;
-    background-attachment: fixed;
-    overflow: hidden;
-}
-.background_media_information{
-    margin-top: -150px;
-    padding: 150px 0px 20px 0px;
-    background: #ffffff94;
-}
-.ul_information{
-    margin: 20px auto;
-    padding: 20px;
-    padding-bottom: 120px;
-    list-style-type: none;
-    border: 0px solid #555;
-    width: 85%;
-    text-align: left;
-    overflow: hidden;
-}
-.logo_information{
-    width: 100%;
-    margin: 0px auto;
-    font-size: 45px;
-    font-family: welcome;
-    font-weight: 200;
-    text-shadow: 0px;
-}
-}
-/* Footer */
-.footer{
-    margin: 0px auto;
-    padding: 20px 100px;
-    text-align: center;
-    background: #eee;
-    border: 1px solid #ddd;
-    overflow: hidden;
-    position: relative;
-}
-.ul_footer{
-    margin: 10px;
-    padding: 0px;
-    list-style-type: none;
-    text-align: left;
-    float: left;
-}.ul_footer2{
-    float: right;
-}
-.nav_footer{
-    border-bottom: 4px double #555;
-    margin-bottom: 5px;
-    padding-bottom: 5px;
-    text-align: center;
-    font-size: 20px;
-    font-family: welcome;
-}
-.li_footer{
-    font-family: text;
-}
-.url_footer{
     font-size: 15px;
-    color: #000;
-    text-decoration: none;
-}.url_footer:hover{color: #000;text-decoration: underline;text-shadow: 0px 0px 4px #999;}
-.text_footer{
-    margin-top: 20%;
-    font-size: 20px;
-    font-family: logo2;
-    text-align: center;
 }
-.email_footer{
-    margin: 10px auto;
-    padding: 10px 0px;
-    border: 1px solid #555;
-    border-radius: 20px;
-    background: #000;
-    font-size: 14px;
-    font-family: welcome;
-    text-align: center;
-    transition: 0.6s;
-}.email_footer:hover{
-    border: 1px solid #777;
-    background: #039be5;
-    box-shadow: 0px 0px 5px #777;
-}.email_footer:hover .a_link{color: #fff;text-decoration: underline;}
-.a_link{
-    color: #fff;
-    text-decoration: none;
+.kalorii{
+	border-top: 1px solid #fff;
+	padding-top: 10px;
 }
-/*link block*/
-.link{
-    text-align: center;
+.blydo_dop{
+    display: inline-block;
+    width: 15%;
+    vertical-align: top;
+}
+.img_wine{
+	width: 30px;
+	height: 45px;
+}
+.img_child{
+	width: 40px;
+	height: 45px;
+}
+.img_vegan{
+	width: 40px;
+	height: 45px;
+}
+.blydo_dop ul{
+	margin: 0px;
+}
+.blydo_dop li{
+	width: 50px;
+	height: 50px;
+	margin: 10px 0px;
+	padding: 5px 5px;
+	background: #fff;
+	list-style-type: none;
+	border-radius: 50%;
+	text-align: center;
+	overflow: hidden; 
+	line-height: 400%;
+	color: #000;
+	font-family: arial;
+	text-transform: uppercase;
+	font-size: 13px;
+}
+@media screen and (max-width: 700px){
+.menu li{
+	padding: 10px;
+	border: 1px solid #fff;
+	border-radius: 50px;
+	margin: 5px 0px;
+}
+.about_logo_img{
+	width: 90%;
+    display: block;
     margin: 0px auto;
-    display: inline-block;
 }
-.img_link{
-    width: 25px;
-    height: 25px;
-    margin: 5px;
-    display: inline-block;
+.about_logo_text{
+	width: 78%;
+	margin: 10px auto;
+	display: block;
+	border: 1px solid #fff;
 }
-.telegram{
-    background: url('/newsite/img/icon/Btelegram.png')no-repeat;
-    background-size: 100% 100%;
-    transition: 0.9s;
-}.telegram:hover{background: url('/newsite/img/icon/telegram.png')no-repeat;background-size: 100% 100%;transition: 0.9s;}
-.inst{
-    background: url('/newsite/img/icon/BInstagram.png')no-repeat;
-    background-size: 100% 100%;
-    transition: 0.9s;
-}.inst:hover{background: url('/newsite/img/icon/Instagram.png')no-repeat;background-size: 100% 100%;transition: 0.9s;}
-.whats{
-    background: url('/newsite/img/icon/Bwhatsapp.png')no-repeat;
-    background-size: 100% 100%;
-    transition: 0.9s;
-}.whats:hover{background: url('/newsite/img/icon/whatsapp.png')no-repeat;background-size: 100% 100%;transition: 0.9s;}
-
-/* Landscape phones and portrait tablets */
-@media screen and (max-width: 767px){
-    .ul_footer{
-    margin: 40px auto;
-    width: auto;
-    padding: 0px;
-    list-style-type: none;
-    text-align: left;
-    float: none;
+.table_blydo{
+    margin: 50px auto;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-basis: auto;
 }
-.ul_footer2{
-    float: none;
+.blydo_img{
+    display: block;
+    margin: 0px 30px;
+    vertical-align: top;
 }
-.text_footer{
-    margin-top: 20%;
-    font-size: 16px;
-    font-family: logo2;
-    text-align: center;
+.blydo_img img{
+	width: 400px;
+	height: 400px;
+	border-radius: 50%;
 }
-.email_footer{
-    font-size: 10px;
+.name_blydo{
+	text-align: center;
+	text-transform: uppercase;
+	font-family: arial;
+	font-size: 20px;
+}
+.blydo_description{
+    display: block;
+    width: 90%;
+    vertical-align: top;
+    text-align: justify;
+    font-family: arial;
+    font-size: 15px;
+}
+.kalorii{
+	border-top: 1px solid #fff;
+	padding-top: 10px;
+}
+.blydo_dop{
+    display: block;
+    width: 100%;
+    vertical-align: top;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 10px;
+}
+.blydo_dop li{
+	margin: 0px 5px;
+	display: inline-block;
 }
 }
