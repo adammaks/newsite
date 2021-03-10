@@ -171,7 +171,9 @@ body{
 }
 @media screen and (max-width: 700px){
 .menu{
-	position: none;
+	position: absolute;
+	top: 0px;
+	left: 0px;
 }
 .menu li{
 	padding: 10px;
