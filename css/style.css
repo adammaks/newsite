@@ -204,8 +204,11 @@ footer a{color: #000;text-decoration: none;}
 @media screen and (max-width:700px){
 	.dishes{
 	background: #fff;
-	width: 90%;
+	min-width: 90%;
+	border: 4px double #555;
+	border-radius: 50px;
 	margin: 50px auto;
+	padding: 50px 0px;
 	text-align: center;
 	font-family: arial;
 	display: grid;
@@ -230,8 +233,8 @@ footer a{color: #000;text-decoration: none;}
 	grid-row-end: 1;
 }
 .img_dishes img{
-	width: 70%;
-	border-radius: 100%;
+	width: 80%;
+	border-radius: 50px;
 }
 .description_dishes{
 	margin: auto 0px;
