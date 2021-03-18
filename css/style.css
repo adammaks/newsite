@@ -1,0 +1,250 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+	
+}
+.logo{
+	padding: 40px;
+	text-align: center;
+	font-size: 20px;
+	font-family: arial;
+	text-transform: uppercase;
+	cursor: default;
+}
+.logo span{
+	color: #d6af62;
+	text-shadow: 0px 1px 2px #55555561;
+}
+nav.menu{
+	padding: 10px;
+	text-align: center;
+}
+.menu ul{
+	display: grid;
+	grid-template-columns: repeat(11, 1fr);
+	grid-gap: 10px;
+}
+.menu li{
+	background: #fff;
+	margin: 0px;
+	padding: 15px 0px;
+	width: 100%;
+	display: inline-grid;
+	border: 1px solid #555;
+	border-radius: 100px;
+	font-size: 10px;
+	font-family: arial;
+	text-transform: uppercase;
+}
+.menu li:hover{
+	border: 1px solid #bda575;
+	background: #bda575;
+	color: #fff;
+	transition: 0.5s;
+}
+.menu a{
+	color: #000;
+	text-decoration: none;
+}
+.about{
+    width: 80%;
+    margin: 0px auto;
+    padding: 50px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+}
+.about img{
+	width: 100%;
+	grid-column-start: 2;
+    grid-column-end: 7;
+	grid-row-start: 1;
+    grid-row-end: 10;
+}
+.about_name{
+	padding: 10px 0px;
+	background: #bda575;
+	color: #000;
+	box-shadow: 0px 0px 5px #00000080;
+	font-size: 30px;
+	cursor: default;
+	grid-column-start: 6;
+	grid-column-end: 8;
+	grid-row-start: 5;
+    grid-row-end: 7;
+}
+.about_text{
+	margin: 40px 0px;
+	line-height: 18px;
+	font-family: arial;
+	font-size: 14px;
+	text-align: justify;
+	grid-column-start: 2;
+    grid-column-end: 8;
+	grid-row-start: 10;
+    grid-row-end: 15;
+}
+
+footer{
+	width: 100%;
+	margin: 0px auto;
+	padding: 10px 0px;
+	text-align: center;
+	background: #bda575;
+	color: #111;
+	font-size: 13px;
+	font-family: arial;
+}
+footer a{color: #000;text-decoration: none;}
+@media screen and (max-width: 700px){
+.menu ul{
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	grid-gap: 10px;
+}
+.menu li{
+	border: 0px;
+	border-radius: 0px;
+}
+.about{
+    width: 95%;
+    margin: 0px auto;
+    padding: 5px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-rows: 100px;
+}
+.about img{
+	width: 100%;
+	grid-column-start: 1;
+	grid-column-end: 10;
+	grid-row-start: 2;
+    grid-row-end: 3;
+}
+.about_name{
+	width: 100%;
+	margin: 0px 0px 10px 0px;
+	grid-column-start: 10;
+	grid-column-end: 1;
+	grid-row-start: 1;
+    grid-row-end: 2;
+}
+.about_text{
+	margin: 20px 0px;
+	grid-column-start: 1;
+	grid-row-end: 3;
+	grid-row-start: 5;
+}
+}
+
+
+.dishes{
+	background: #fff;
+	width: 80%;
+	margin: 50px auto;
+	text-align: center;
+	font-family: arial;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+}
+.logo_dishes{
+	margin: 40px auto;
+	text-align: center;
+	font-size: 35px;
+	font-family: arial;
+	text-transform: uppercase;
+	grid-column-start: 1;
+	grid-column-end: 5;
+	grid-row-start: 1;
+	grid-row-end: 2;
+}
+.img_dishes{
+	margin: auto 0px;
+	grid-column-start: 1;
+	grid-column-end: 1;
+	grid-row-start: 3;
+	grid-row-end: 4;
+}
+.img_dishes img{
+	width: 100%;
+	border-radius: 100%;
+}
+.description_dishes{
+	margin: auto 0px;
+	padding: 20px;
+	grid-column-start: 2;
+	grid-column-end: 4;
+	grid-row-start: 3;
+	grid-row-end: 4;
+}
+.name_dishes{
+    margin: 20px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.text_dishes{
+	margin: 20px 0px;
+    font-size: 15px;
+    text-align: justify;
+}
+.kalorii_dishes{
+
+}
+.option_dishes{
+	margin: auto 0px;
+	grid-column-start: 4;
+	grid-column-end: 4;
+	grid-row-start: 3;
+	grid-row-end: 4;
+}
+
+@media screen and (max-width:700px){
+	.dishes{
+	background: #fff;
+	width: 90%;
+	margin: 50px auto;
+	text-align: center;
+	font-family: arial;
+	display: grid;
+	grid-template-columns: 1fr;
+}
+.logo_dishes{
+	margin: 40px auto;
+	text-align: center;
+	font-size: 35px;
+	font-family: arial;
+	text-transform: uppercase;
+	grid-column-start: 1;
+	grid-column-end: 5;
+	grid-row-start: 1;
+	grid-row-end: 2;
+}
+.img_dishes{
+	margin: auto 0px;
+	grid-column-start: 1;
+	grid-column-end: 5;
+	grid-row-start: 1;
+	grid-row-end: 1;
+}
+.img_dishes img{
+	width: 70%;
+	border-radius: 100%;
+}
+.description_dishes{
+	margin: auto 0px;
+	padding: 20px;
+	grid-column-start: 4;
+	grid-column-end: 4;
+	grid-row-start: 5;
+	grid-row-end: 10;
+}
+.option_dishes{
+	grid-column-start: 4;
+	grid-column-end: 5;
+	grid-row-start: 10;
+	grid-row-end: 10;
+}
+}
